@@ -34,7 +34,7 @@ import java.util.concurrent.TimeUnit;
 @SuppressWarnings("unchecked")
 class MethodCallHandlerImpl implements MethodChannel.MethodCallHandler {
 
-  private static final String SHARED_PREFERENCES_NAME = "FlutterSharedPreferences";
+  private static final String SHARED_PREFERENCES_NAME = "mysoftsource_pref";
 
   // Fun fact: The following is a base64 encoding of the string "This is the prefix for a list."
   private static final String LIST_IDENTIFIER = "VGhpcyBpcyB0aGUgcHJlZml4IGZvciBhIGxpc3Qu";
